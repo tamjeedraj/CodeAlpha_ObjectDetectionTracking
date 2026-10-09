@@ -1,0 +1,15 @@
+[project]
+name = "codealpha-objectdetectiontracking"
+version = "0.1.0"
+description = "AI Object Detection, Tracking and Voice Alert System"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python",
+    "pyttsx3",
+    "ultralytics",
+    "pytest",
+]
+
+[project.scripts]
+object-tracker = "main:main"

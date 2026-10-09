@@ -1,0 +1,26 @@
+.venv/
+**pycache**/
+*.py[cod]
+.pytest_cache/
+.env
+.vscode/
+.idea/
+
+# Downloaded AI models
+
+models/*.pt
+
+# Input and generated videos
+
+input/*.mp4
+input/*.avi
+input/*.mov
+output/*.mp4
+output/*.avi
+output/*.mov
+
+# Generated screenshots
+
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
